@@ -1,0 +1,50 @@
+.header {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    color: azure;
+    background:  linear-gradient(
+        rgba(65, 105, 225, 0.60), 
+        rgba(65, 105, 225, 0.60)
+      ), url('../Images/black-asphalt-texture-background-top-view_144130-1.jpg');
+    width: 100%;
+    height: 120px;
+}
+
+.scrollTable {
+    height: 500px; 
+    overflow-y: auto;
+    display: block;
+    width: 100%;
+}
+
+.scrollTable thead th {
+    width: 1%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.add-button {
+    float: right;
+    margin-right: 10%;
+}
+
+.add-button1 {
+    float: left;
+    margin-left: 50%;
+}
+
+.add-form {
+    
+    width: 50%;
+    margin: 5% 25% 10%; 
+    
+}
+
+.Login {
+    padding: 60px 0;
+    margin: 0 auto;
+    max-width: 320px;
+}
